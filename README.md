@@ -7,7 +7,6 @@
 
 ## TODO
 
-1. Licencing SPDX
 1. Convert initial example template to a structured format stored in JSON
     1. Useful links
 1. Makefile to create templates compatible with various voice recognition
