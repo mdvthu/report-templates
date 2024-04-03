@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: Mark Thurston
-#
-# SPDX-License-Identifier: Apache-2.0
-
 Technique: [Fat-saturated proton density axial, sagittal, and coronal. Proton density sagittal.]
 
 Comparison: [None.]

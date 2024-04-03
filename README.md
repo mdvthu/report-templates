@@ -1,6 +1,3 @@
-[comment]: # SPDX-FileCopyrightText: Mark Thurston
-[comment]: # SPDX-License-Identifier: Apache-2.0
-
 # Reporting templates
 
 ## References
