@@ -1,5 +1,14 @@
 # Reporting templates
 
+## Style
+
+Report templates should require as few changes as possible when copying and pasting. Whitespace has been added at the start of each file to avoid having to add later.
+
+### Naming structure
+
+* To keep report templates easy to navigate, filenames are structured as:
+`template_<modality>_<examination>.txt`
+
 ## References
 
 1. [RSNA RadReport reporting
