@@ -1,3 +1,4 @@
+
 Technique: Sagittal T1 and T2. Axial T2 from [C2-T1].
 
 Comparison: [No previous relevant imaging is available for comparison.]
@@ -14,7 +15,6 @@ C4/5: []
 C5/6: []
 C6/7: []
 C7/T1: []
-
 
 
 Impression: []

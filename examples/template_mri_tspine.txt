@@ -1,3 +1,4 @@
+
 Technique: Sagittal T2 counting scan. Sagittal T1, T2, and fat suppressed. Axial T2 from [T1-].
 
 Comparison: [No previous relevant imaging is available for comparison.]
@@ -13,3 +14,5 @@ No paraspinal soft tissue lesions.
 
 
 Impression: []
+
+
