@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: Mark Thurston
+
+SPDX-License-Identifier: Apache-2.0
+-->
 # Reporting templates
 
 ## Style
