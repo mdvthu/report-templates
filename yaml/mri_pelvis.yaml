@@ -1,0 +1,31 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.1
+---
+exam_code: 'MPELV'
+technique: 'Axial and coronal T1 and STIR'
+report:
+  sections:
+    - section:
+      title: 'fluid'
+      content: 'No organised fluid collection.'
+    - section:
+      title: 'joints'
+      content: >-
+        Hip joint articular cartilage appears preserved. No effusion. No
+        labral abnormality. Normal pubic symphysis. No capsular thickening.
+        Preserved sacroiliac joint space with no oedema or fatty changes.
+    - section:
+      title: 'bones'
+      content: 'No acute femoral or pelvic fracture. No focal bone lesion.'
+    - section:
+      title: 'muscles'
+      content: >-
+        The muscles return normal symmetrical signal with no fatty or
+        oedematous changes. No tendon injury identified. Normal common
+        hamstring origins. Normal trochanteric bursa appearances.
+    - section:
+      title: 'pelvic contents'
+      content: 'No free fluid. The hernial orifices appear clear.'
+...
