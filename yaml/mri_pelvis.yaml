@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2024 Mark Thurston
 #
 # SPDX-License-Identifier: Apache-2.0
-%YAML 1.1
+%YAML 1.2
 ---
 exam_code: 'MPELV'
 technique: 'Axial and coronal T1 and STIR'
