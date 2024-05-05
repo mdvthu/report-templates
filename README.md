@@ -23,7 +23,7 @@ Report templates should require as few changes as possible when copying and past
 
 ## TODO
 
-1. Convert initial example template to a structured format stored in JSON
-    1. Useful links
-1. Makefile to create templates compatible with various voice recognition
+1. Scripts to create templates compatible with various voice recognition
    systems
+1. Customisable signature
+1. Adjustable configuration with sensible defaults
