@@ -25,5 +25,3 @@ Report templates should require as few changes as possible when copying and past
 
 1. Scripts to create templates compatible with various voice recognition
    systems
-1. Customisable signature
-1. Adjustable configuration with sensible defaults
