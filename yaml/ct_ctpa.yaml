@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code: 'CAPUG'
+vr_shortcut_suffix: 'ct pulmonary angiogram'
+technique: >-
+  Pulmonary arterial phase CT chest [including|excluding] the extreme apices.
+  Diagnostic contrast opacification of the pulmonary trunk ([] Hounsfield
+  units)
+report: >-
+  Negative for pulmonary embolism. The lungs and pleural spaces are clear.
+  Unremarkable mediastinal appearances. Unremarkable appearances of the
+  partially visualised abdominal contents. No size significant lymph nodes. No
+  aggressive bone lesion.
+summary: 'No PE'
