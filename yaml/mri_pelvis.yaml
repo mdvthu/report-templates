@@ -4,8 +4,8 @@
 %YAML 1.2
 ---
 exam_code: 'MPELV'
+vr_shortcut_suffix: 'mri pelvis'
 technique: 'Axial and coronal T1 and STIR'
-vr_shortcut: 'template mri pelvis'
 report:
   - section: 'fluid'
     content: 'No organised fluid collection.'
