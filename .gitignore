@@ -167,3 +167,5 @@ cython_debug/
 # project specific
 # user configurtaion
 config.yaml
+# final template output
+output/
