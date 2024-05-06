@@ -1,0 +1,25 @@
+{#
+SPDX-FileCopyrightText: 2024 Mark Thurston
+
+SPDX-License-Identifier: Apache-2.0
+
+Plain text report template
+https://jinja.palletsprojects.com/en/3.0.x/templates/
+#}
+Technique: {{ template_data.technique }}.
+
+Comparison: {{ config.vr_open_placeholder + config.comparison_text + config.vr_close_placeholder }}.
+
+Findings:
+
+{% if template_data.report is string %}
+{{ template_data.report }}
+{% elif template_data.report is iterable %}{% for section in template_data.report %}
+{{ section.section|upper }}:
+{{ section.content }}
+{% endfor %}{% endif %}
+
+Impression: {{ config.vr_full_placeholder }}
+
+
+{{ config.signature }}
