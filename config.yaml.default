@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+# default empty VR placeholders
+vr_full_placeholder: '[]'
+vr_open_placeholder: '['
+vr_close_placeholder: ']'
+vr_shortcut_prefix: 'template'
+# comparison text to insert into all templates
+comparison_text: 'No previous relevant imaging is available for comparison'
+signature: |-
+  Dr Change Me GMC 1234567
+  Radiologist
