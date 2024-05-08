@@ -6,19 +6,35 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
+import filecmp
 import logging
 import os
+import shutil
+import sys
 
 import jinja2
+
 import yaml
 
 config_file = "config.yaml"
+config_file_template = "config.yaml.default"
 input_data_dir = "yaml"
 output_data_dir = "output/text/"
 
-# load user configuration
-with open(config_file, "tr") as f:
-    config = yaml.safe_load(f)
+try:
+    # load user configuration
+    with open(config_file, "tr") as f:
+        config = yaml.safe_load(f)
+except FileNotFoundError:
+    # user config doesn't exist, create from default
+    print(f"{config_file} not found. Copying {config_file_template}", file=sys.stderr)
+    shutil.copyfile(config_file_template, config_file)
+    sys.exit(1)
+
+if filecmp.cmp(config_file, config_file_template):
+    # config file not customised
+    print(f"{config_file} not customised. Please edit and rerun.", file=sys.stderr)
+    sys.exit(1)
 
 # set up templating
 env = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
