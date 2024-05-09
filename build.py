@@ -27,13 +27,19 @@ try:
         config = yaml.safe_load(f)
 except FileNotFoundError:
     # user config doesn't exist, create from default
-    print(f"{config_file} not found. Copying {config_file_template}", file=sys.stderr)
+    print(
+        f"{config_file} not found. Copying {config_file_template}",
+        file=sys.stderr,
+    )
     shutil.copyfile(config_file_template, config_file)
     sys.exit(1)
 
 if filecmp.cmp(config_file, config_file_template):
     # config file not customised
-    print(f"{config_file} not customised. Please edit and rerun.", file=sys.stderr)
+    print(
+        f"{config_file} not customised. Please edit and rerun.",
+        file=sys.stderr,
+    )
     sys.exit(1)
 
 # set up templating
