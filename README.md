@@ -33,6 +33,10 @@ Get-Content output/text/template_ct_pulmonary_angiogram.txt | Set-Clipboard
 gc output/text/template_ct_pulmonary_angiogram.txt | scb
 ```
 
+[Tab
+completion](https://learn.microsoft.com/en-us/powershell/scripting/learn/shell/tab-completion?view=powershell-7.4)
+makes this process fast.
+
 ## Style
 
 Report templates should require as few changes as possible when copying and
