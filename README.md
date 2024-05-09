@@ -20,6 +20,19 @@ SPDX-License-Identifier: Apache-2.0
 1. Edit user config: `config.yaml`
 1. Run: `python3 build.py`: generated templates will be in `output/text/`
 
+## Use
+
+Templates will be in `output/text/`.
+
+PowerShell can quickly copy the relevant template to the clipboard for transfer
+to a report (RIS/PACS etc):
+
+```PowerShell
+Get-Content output/text/template_ct_pulmonary_angiogram.txt | Set-Clipboard
+# short form
+gc output/text/template_ct_pulmonary_angiogram.txt | scb
+```
+
 ## Style
 
 Report templates should require as few changes as possible when copying and
