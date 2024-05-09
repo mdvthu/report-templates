@@ -31,7 +31,7 @@ customise output of the generated reports.
 * To keep report templates easy to navigate and remember, generated filenames
   are hierarchical.
     * `template_<modality>_<examination>_<exam_type>.txt`
-    * for example, `template_mri_pelvis_constrast.txt`
+    * for example, `template_mri_pelvis_contrast.txt`
 
 ## References
 
