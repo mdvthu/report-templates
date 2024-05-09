@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+[tool.black]
+line-length = 79
