@@ -1,5 +1,7 @@
 # SPDX-FileCopyrightText: 2024 Mark Thurston
 #
 # SPDX-License-Identifier: Apache-2.0
+
 [tool.black]
+# PEP8 compliance (to avoid conflicting with other linters)
 line-length = 79
