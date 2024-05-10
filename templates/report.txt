@@ -18,12 +18,10 @@ Findings:
 {{ section.content }}
 {% endfor %}{% endif %}
 
-Impression: {% if template_data.summary %}{{
-config.vr_open_placeholder + template_data.summary +
+Impression: {{
+config.vr_open_placeholder +
+template_data.summary|default('') +
 config.vr_close_placeholder
-}}{% else %}{{
-config.vr_full_placeholder
-}}{% endif %}
-
+}}
 
 {{ config.signature }}
