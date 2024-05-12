@@ -3,7 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 %YAML 1.2
 ---
-exam_code: 'MPELV'
+exam_code:
+  - 'MPELV'
+  - 'MPEHB'
 vr_shortcut_suffix: 'mri pelvis'
 technique: 'Axial and coronal T1 and STIR'
 report:
@@ -11,16 +13,16 @@ report:
     content: 'No organised fluid collection.'
   - section: 'joints'
     content: >-
-      Hip joint articular cartilage appears preserved. No effusion. No
-      labral abnormality. Normal pubic symphysis. No capsular thickening.
-      Preserved sacroiliac joint space with no oedema or fatty changes.
+      Hip joint articular cartilage appears preserved. No effusion. No labral
+      abnormality. Normal pubic symphysis. No capsular thickening. Preserved
+      sacroiliac joint space with no oedema or fatty changes.
   - section: 'bones'
     content: 'No acute femoral or pelvic fracture. No focal bone lesion.'
   - section: 'muscles'
     content: >-
-      The muscles return normal symmetrical signal with no fatty or
-      oedematous changes. No tendon injury identified. Normal common
-      hamstring origins. Normal trochanteric bursa appearances.
+      The muscles return normal symmetrical signal with no fatty or oedematous
+      changes. No tendon injury identified. Normal common hamstring origins.
+      Normal trochanteric bursa appearances.
   - section: 'pelvic contents'
     content: 'No free fluid. The hernial orifices appear clear.'
 ...

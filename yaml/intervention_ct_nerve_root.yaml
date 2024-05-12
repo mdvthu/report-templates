@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2024 Mark ThurstonCLNRTJ
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'CSINJJ'  # CT Guided injection
+  - 'CLNRTJ'  # CT Guided nerve root injection lumbar
+  - 'CSNRTJ'  # CT Guided nerve root injection sacral
+vr_shortcut_suffix: 'intervention ct nerve root'
+report:
+  - section: 'consent'
+    content: >-
+      WHO form completed. Informed written consent. Risk of infection, nerve
+      root injury, bleeding/haematoma, inadequate response.
+  - section: 'preparation'
+    content: >-
+      Aseptic technique. 4 mL 1% lidocaine to the skin and subcutaneous soft
+      tissues.
+  - section: 'procedure'
+    content: >-
+      Needle inserted down to the [LEFT S1] nerve root. Position confirmed with
+      CT. 40 mg of Depo-Medrone steroid and 1.5 mL of 0.25% levobupivacaine was
+      injected around the nerve root. No immediate complications.
+...
