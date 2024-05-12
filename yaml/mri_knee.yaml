@@ -1,0 +1,33 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'MKNEB'
+  - 'MKNEL'
+  - 'MKNER'
+vr_shortcut_suffix: 'mri knee'
+technique: >-
+  Fat-saturated proton density axial, sagittal, and coronal. Proton density
+  sagittal
+report:
+  - section: 'fluid'
+    content: 'No joint effusion. No Baker cyst.'
+  - section: 'menisci'
+    content: 'The medial and lateral menisci are intact'
+  - section: 'ligaments'
+    content: >-
+      The anterior and posterior cruciate ligaments are intact. The medial and
+      lateral collateral ligaments are intact with no periligametous oedema.
+      The posterolateral corner structures are intact.
+  - section: 'extensor mechanism'
+    content: >-
+      The distal quadriceps and patellar tendons are intact. The patella is
+      normally positioned within the femoral groove. No retinacular disruption.
+  - section: 'osseous and articular structures'
+    content: >-
+      Normal patellofemoral articular cartilage. Normal medial compartment
+      articular cartilage. Normal lateral compartmental articular cartilage. No
+      fracture, stress reaction, or bone lesion.
+...
