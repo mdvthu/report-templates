@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2024 Mark ThurstonCLNRTJ
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'CSINJJ'  # CT Guided injection
+  - 'CLNRTJ'  # CT Guided nerve root injection lumbar
+  - 'CSNRTJ'  # CT Guided nerve root injection sacral
+vr_shortcut_suffix: 'intervention ct nerve root'
+report:
+  - section: 'consent'
+    content: >-
+      WHO form completed. Side confirmed. Informed verbal consent with
+      opportunity to ask questions. Risk of infection/septic joint, haematoma,
+      and inadequate response.
+  - section: 'preparation'
+    content: >-
+      Aseptic technique. [3] millilitre 1% lidocaine to the skin and
+      subcutaneous soft tissues.
+  - section: 'procedure'
+    content: >-
+      Needle inserted down to the [RIGHT|LEFT] sacroiliac joint. Position
+      confirmed with CT. 40 milligram of Kenalog (triamcinolone acetonide) and
+      2 millilitre of 0.25% levobupivacaine injected into the joint. No
+      immediate complications.
+...
