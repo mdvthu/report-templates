@@ -12,14 +12,15 @@ report:
   - section: 'consent'
     content: >-
       WHO form completed. Informed written consent. Risk of infection, nerve
-      root injury, bleeding/haematoma, inadequate response.
+      root injury, bleeding/haematoma, and inadequate response.
   - section: 'preparation'
     content: >-
-      Aseptic technique. 4 mL 1% lidocaine to the skin and subcutaneous soft
-      tissues.
+      Aseptic technique. [4] millilitre 1% lidocaine to the skin and
+      subcutaneous soft tissues.
   - section: 'procedure'
     content: >-
-      Needle inserted down to the [LEFT S1] nerve root. Position confirmed with
-      CT. 40 mg of Depo-Medrone steroid and 1.5 mL of 0.25% levobupivacaine was
+      Needle inserted down to the [RIGHT|LEFT] [L3|L4|L5|S1|S2] nerve root.
+      Position confirmed with CT. 40 milligram of Depo-Medrone
+      (methylprednisolone acetate) and 1.5 millilitre of 0.25% levobupivacaine
       injected around the nerve root. No immediate complications.
 ...
