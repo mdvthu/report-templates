@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""(re-)builds standardised reports from YAML content files
-"""
+"""(re-)builds standardised reports from YAML content files"""
 
 # SPDX-FileCopyrightText: 2024 Mark Thurston
 #
@@ -42,27 +41,36 @@ if filecmp.cmp(config_file, config_file_template):
     )
     sys.exit(1)
 
-# set up templating
-env = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
-# plain text report
-template = env.get_template("report.txt")
+all_templates = {}
 
+# load the YAML templates into memory
 for fn in os.listdir(input_data_dir):
     logging.debug("Processing %s", fn)
     with open(os.path.join(input_data_dir, fn), "tr") as f:
         yaml_content = yaml.safe_load(f)
     logging.debug(yaml_content)
+    all_templates[fn] = yaml_content
+
+# set up text templating
+env = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
+# plain text report
+template = env.get_template("report.txt")
+
+# create all the text templates
+for k in all_templates:
     rendered_template = template.render(
         config=config,
-        template_data=yaml_content,
+        template_data=all_templates[k],
     )
     output_fn = "{}_{}.txt".format(
-        config["vr_shortcut_prefix"], yaml_content["vr_shortcut_suffix"]
+        config["vr_shortcut_prefix"], all_templates[k]["vr_shortcut_suffix"]
     ).replace(" ", "_")
     # verbose output including the filename and rendered template
     logging.info("output/text/%s:", output_fn)
     logging.info("---")
     logging.info(rendered_template)
     logging.info("...")
+    # ensure the output directory exists
+    os.makedirs(output_data_dir, exist_ok=True)
     with open(os.path.join(output_data_dir, output_fn), "wt") as fout:
         fout.write(rendered_template)
