@@ -18,7 +18,7 @@ import yaml
 config_file = "config.yaml"
 config_file_template = "config.yaml.default"
 input_data_dir = "yaml"
-output_data_dir = "output/text/"
+output_data_dir = "output/"
 
 try:
     # load user configuration
@@ -54,11 +54,11 @@ for fn in os.listdir(input_data_dir):
 # set up text templating
 env = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
 # plain text report
-template = env.get_template("report.txt")
+text_template = env.get_template("report.txt")
 
 # create all the text templates
 for k in all_templates:
-    rendered_template = template.render(
+    rendered_template = text_template.render(
         config=config,
         template_data=all_templates[k],
     )
@@ -71,6 +71,18 @@ for k in all_templates:
     logging.info(rendered_template)
     logging.info("...")
     # ensure the output directory exists
-    os.makedirs(output_data_dir, exist_ok=True)
-    with open(os.path.join(output_data_dir, output_fn), "wt") as fout:
+    text_template_output_dir = os.path.join(output_data_dir, "text/")
+    os.makedirs(text_template_output_dir, exist_ok=True)
+    with open(os.path.join(text_template_output_dir, output_fn), "wt") as fout:
         fout.write(rendered_template)
+
+# create a single XML file with all templates, for Dragon 12 import
+dragon_v12_template = env.get_template("dragon_mycmds.xml")
+rendered_dragon_template = dragon_v12_template.render(
+    config=config, template_data=all_templates
+)
+dragon_template_dir = os.path.join(output_data_dir, "dragon/")
+os.makedirs(dragon_template_dir, exist_ok=True)
+# Dragon VR templates XML
+with open(os.path.join(dragon_template_dir, "dragon_v12.xml"), "wt") as fout:
+    fout.write(rendered_template)
