@@ -85,4 +85,4 @@ dragon_template_dir = os.path.join(output_data_dir, "dragon/")
 os.makedirs(dragon_template_dir, exist_ok=True)
 # Dragon VR templates XML
 with open(os.path.join(dragon_template_dir, "dragon_v12.xml"), "wt") as fout:
-    fout.write(rendered_template)
+    fout.write(rendered_dragon_template)
