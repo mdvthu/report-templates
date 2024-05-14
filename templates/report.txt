@@ -24,4 +24,5 @@ template_data.summary|default('') +
 config.vr_close_placeholder
 }}
 
+
 {{ config.signature }}
