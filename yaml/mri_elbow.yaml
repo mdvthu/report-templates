@@ -1,0 +1,32 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'MELBB'
+  - 'MELBL'
+  - 'MELBR'
+vr_shortcut_suffix: 'mri elbow'
+references:
+  - https://radiologyassistant.nl/musculoskeletal/elbow/mri-examination
+technique: >-
+  Axial proton density and fat suppressed. Sagittal and coronal T1 and STIR.
+report:
+  - section: 'bones'
+    content: >-
+      No bone oedema or deformity. Normal appearances of the distal humerus,
+      radial head, and proximal ulna (including coronoid process).
+  - section: 'joint'
+    content: >-
+      No significant joint effusion, intra-articular fragments, or loose
+      bodies. Joint space and articular cartilage are preserved. No synovial
+      thickening.
+  - section: 'soft tissues and tendons'
+    content: >-
+      The common flexor and common extensor origins appear intact with no
+      evidence of tendinopathy. The distal biceps tendon appears intact with no
+      associated oedema. The distal triceps tendon appears intact with no tear
+      or tendinopathy. Normal olecranon soft tissues; no bursitis. The imaged
+      ulnar, median, and radial nerves appear normal in contour and location.
+...
