@@ -11,7 +11,7 @@ vr_shortcut_suffix: 'mri elbow'
 references:
   - https://radiologyassistant.nl/musculoskeletal/elbow/mri-examination
 technique: >-
-  Axial proton density and fat suppressed. Sagittal and coronal T1 and STIR.
+  Axial proton density and fat suppressed. Sagittal and coronal T1 and STIR
 report:
   - section: 'bones'
     content: >-
