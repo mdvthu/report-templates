@@ -5,9 +5,7 @@
 ---
 exam_code:
   - 'CSINJJ'  # CT Guided injection
-  - 'CLNRTJ'  # CT Guided nerve root injection lumbar
-  - 'CSNRTJ'  # CT Guided nerve root injection sacral
-vr_shortcut_suffix: 'intervention ct nerve root'
+vr_shortcut_suffix: 'intervention ct sacroiliac'
 report:
   - section: 'consent'
     content: >-
