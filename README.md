@@ -22,7 +22,9 @@ SPDX-License-Identifier: Apache-2.0
 
 ## Use
 
-Templates will be in `output/text/`.
+### Plain text
+
+Plain text templates will be in `output/text/`.
 
 PowerShell can quickly copy the relevant template to the clipboard for transfer
 to a report (RIS/PACS etc):
@@ -36,6 +38,11 @@ gc output/text/template_ct_pulmonary_angiogram.txt | scb
 [Tab
 completion](https://learn.microsoft.com/en-us/powershell/scripting/learn/shell/tab-completion?view=powershell-7.4)
 makes this process fast.
+
+### Voice recognition
+
+The scripts create a `XML` file that can be imported into Dragon VR:
+`output/dragon/dragon_v12.xml`
 
 ## Style
 
