@@ -1,0 +1,45 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+# References
+# http://www.radiologytemplates.com.au/templates/mri-shoulder/
+%YAML 1.2
+---
+exam_code:
+  - 'MSHRR'
+  - 'MSHRL'
+vr_shortcut_suffix: 'mri shoulder'
+technique: 'Sagittal T2. Coronal proton density and fat suppressed'
+report:
+  - section: 'rotator cuff'
+    content: >-
+      The supraspinatus, infraspinatus, subscapularis and teres minor tendons
+      have normal appearance with no evidence of tear or tendinopathy
+  - section: 'muscles'
+    content: >-
+      The muscles return normal signal with no fatty or oedematous
+      changes.
+  - section: 'biceps'
+    content: >-
+      The long head of biceps tendon and biceps anchor are normal. The tendon
+      is normally located in the bicipital groove. There is no evidence of
+      synovitis. The short head of biceps is normal.
+  - section: 'rotator interval'
+    content: >-
+      No thickening of the soft tissues. Normal coracoclavicular or
+      coracohumeral ligaments. Normal intraarticular component of the long head
+      of biceps.
+  - section: 'fluid'
+    content: 'No bursitis. No organised fluid collection.'
+  - section: 'joints'
+    content: >-
+      The acromioclavicular joint has a normal appearance with no inflammation
+      or degenerative change. The glenoid labrum and glenoid and humeral head
+      cartilage appear normal. The glenohumeral ligaments are unremarkable. The
+      capsule has a normal appearance. No loose bodies are identified.
+  - section: 'bones'
+    content: 'No acute fracture. No focal bone lesion.'
+  - section: 'soft tissues'
+    content: 'No additional soft tissue or thoracic abnormality identified.'
+...
