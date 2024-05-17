@@ -56,8 +56,3 @@ customise output of the generated reports.
    templates](https://www.rsna.org/practice-tools/data-tools-and-standards/radreport-reporting-templates)
 1. [Radiology Assistant NL ankle
    examination](https://radiologyassistant.nl/musculoskeletal/ankle/mri-examination)
-
-## TODO
-
-1. Scripts to create templates compatible with various voice recognition
-   systems
