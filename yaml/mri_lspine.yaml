@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'MLSPN'
+vr_shortcut_suffix: 'mri lumbar spine'
+technique: 'Sagittal T1 and [T2|STIR]. Axial T2 from [L3 to S1]'
+report: >-
+  The conus terminates at [] and returns normal signal. Normal marrow signal.
+  Normal spinal alignment.
+
+
+  L3/4: []
+
+
+  L4/5: []
+
+
+  L5/S1: []
+...

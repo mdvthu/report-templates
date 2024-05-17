@@ -1,0 +1,31 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'MCSPN'
+vr_shortcut_suffix: 'mri cervical spine'
+technique: 'Sagittal T1 and [T2|STIR]. Axial T2 from [C2-T1]'
+report: >-
+  The posterior cranial fossa and craniocervical junction return normal signal.
+  Normal marrow signal. Normal spinal alignment.
+
+
+  C2/3: []
+
+
+  C3/4: []
+
+
+  C4/5: []
+
+
+  C5/6: []
+
+
+  C6/7: []
+
+
+  C7/T1: []
+...

@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'MTSPN'
+vr_shortcut_suffix: 'mri thoracic spine'
+technique: >-
+  Sagittal T2 counting scan. Sagittal T1, T2, and fat suppressed. Axial T2 from
+  []
+report: >-
+  The conus terminates at [] and returns normal signal. Normal marrow signal.
+  Normal spinal alignment.
+
+  No disc herniation or significant bulge. Perserved spinal canal and exit
+  foramina. No paraspinal soft tissue abnormality.
+...
