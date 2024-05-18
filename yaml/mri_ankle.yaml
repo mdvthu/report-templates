@@ -1,0 +1,29 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'MANKB'
+  - 'MANKL'
+  - 'MANKR'
+vr_shortcut_suffix: 'mri ankle'
+technique: >-
+  Axial proton density and fat suppressed proton density. Coronal T1 and STIR.
+  Sagittal STIR
+report:
+  - section: 'bones and soft tissues'
+    content: >-
+      No fluid collection. No bone marrow oedema. No focal bone lesion. (screen
+      fat suppressed images)
+  - section: 'joints'
+    content: 'No significant joint effusion. No capsular thickening.'
+  - section: 'ligaments'
+    content: >-
+      Normal ankle joint alignment. Normal medial and lateral ligamentous
+      complexes. Normal plantar fascia origin.
+  - section: 'tendons'
+    content: >-
+      Normal appearances of the medial and peroneal flexor tendons. Normal
+      extensor tendons. Normal Achilles' tendon. (four quadrant approach)
+...
