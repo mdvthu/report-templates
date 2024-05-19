@@ -14,8 +14,7 @@ technique: >-
 report:
   - section: 'bones and soft tissues'
     content: >-
-      No fluid collection. No bone marrow oedema. No focal bone lesion. (screen
-      fat suppressed images)
+      No fluid collection. No bone marrow oedema. No focal bone lesion.
   - section: 'joints'
     content: 'No significant joint effusion. No capsular thickening.'
   - section: 'ligaments'
@@ -25,5 +24,5 @@ report:
   - section: 'tendons'
     content: >-
       Normal appearances of the medial and peroneal flexor tendons. Normal
-      extensor tendons. Normal Achilles' tendon. (four quadrant approach)
+      extensor tendons. Normal Achilles' tendon.
 ...
