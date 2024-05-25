@@ -9,8 +9,8 @@ exam_code:
 vr_shortcut_suffix: 'mri pelvis'
 technique: 'Axial and coronal T1 and STIR'
 report:
-  - section: 'fluid'
-    content: 'No organised fluid collection.'
+  - section: 'soft tissues'
+    content: 'No organised fluid collection. No soft tissue lesion.'
   - section: 'joints'
     content: >-
       Hip joint articular cartilage appears preserved. No effusion. No labral
