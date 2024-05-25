@@ -13,7 +13,7 @@ technique: >-
   sagittal
 report:
   - section: 'fluid'
-    content: 'No joint effusion. No Baker cyst.'
+    content: 'No significant joint effusion. No popliteal cyst.'
   - section: 'menisci'
     content: 'The medial and lateral menisci are intact'
   - section: 'ligaments'
@@ -25,7 +25,7 @@ report:
     content: >-
       The distal quadriceps and patellar tendons are intact. The patella is
       normally positioned within the femoral groove. No retinacular disruption.
-  - section: 'osseous and articular structures'
+  - section: 'bones and joint'
     content: >-
       Normal patellofemoral articular cartilage. Normal medial compartment
       articular cartilage. Normal lateral compartmental articular cartilage. No

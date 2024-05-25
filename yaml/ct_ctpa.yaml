@@ -7,8 +7,8 @@ exam_code: 'CAPUG'
 vr_shortcut_suffix: 'ct pulmonary angiogram'
 technique: >-
   Pulmonary arterial phase CT chest [including|excluding] the extreme apices
-  and bases. Diagnostic contrast opacification of the pulmonary trunk ([]
-  Hounsfield units)
+  and bases. Diagnostic pulmonary trunk contrast opacification ([] Hounsfield
+  units)
 report: >-
   Negative for pulmonary embolism. The lungs and pleural spaces are clear.
   Unremarkable mediastinal appearances. Unremarkable appearances of the
