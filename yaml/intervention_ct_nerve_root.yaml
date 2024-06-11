@@ -11,17 +11,17 @@ vr_shortcut_suffix: 'intervention ct nerve root'
 report:
   - section: 'consent'
     content: >-
-      WHO form completed. Informed written consent. Risk of infection, nerve
-      root injury, bleeding/haematoma, and inadequate response discussed with
-      opportunity to ask questions.
+      Procedure explained. Risk of infection, nerve root injury,
+      bleeding/haematoma, and inadequate response discussed with opportunity to
+      ask questions. Informed written consent. WHO form completed.
   - section: 'preparation'
     content: >-
-      Aseptic technique. [4] millilitre 1% lidocaine to the skin and
+      Aseptic technique. [4] millilitres 1% lidocaine to the skin and
       subcutaneous soft tissues.
   - section: 'procedure'
     content: >-
       Needle inserted down to the [RIGHT|LEFT] [L3|L4|L5|S1|S2] nerve root.
-      Position confirmed with CT. 40 milligram of Depo-Medrone
-      (methylprednisolone acetate) and 1.5 millilitre of 0.25% levobupivacaine
+      Position confirmed with CT. 40 milligrams of Depo-Medrone
+      (methylprednisolone acetate) and 1.5 millilitres of 0.25% levobupivacaine
       injected around the nerve root. No immediate complications.
 ...

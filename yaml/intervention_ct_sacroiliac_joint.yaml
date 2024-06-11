@@ -9,17 +9,17 @@ vr_shortcut_suffix: 'intervention ct sacroiliac'
 report:
   - section: 'consent'
     content: >-
-      WHO form completed. Side confirmed. Informed verbal consent with
-      opportunity to ask questions. Risk of infection/septic joint, haematoma,
-      and inadequate response.
+      Procedure explained. Risk of infection, infection/septic joint, and
+      inadequate response discussed with opportunity to ask questions. Informed
+      verbal consent. WHO form completed.
   - section: 'preparation'
     content: >-
-      Aseptic technique. [3] millilitre 1% lidocaine to the skin and
+      Aseptic technique. [3] millilitres 1% lidocaine to the skin and
       subcutaneous soft tissues.
   - section: 'procedure'
     content: >-
       Needle inserted down to the [RIGHT|LEFT] sacroiliac joint. Position
-      confirmed with CT. 40 milligram of Kenalog (triamcinolone acetonide) and
-      2 millilitre of 0.25% levobupivacaine injected into the joint. No
+      confirmed with CT. 40 milligrams of Kenalog (triamcinolone acetonide) and
+      2 millilitres of 0.25% levobupivacaine injected into the joint. No
       immediate complications.
 ...
