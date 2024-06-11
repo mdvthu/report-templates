@@ -9,15 +9,15 @@ vr_shortcut_suffix: 'intervention fluoro subtalar'
 report:
   - section: 'consent'
     content: >-
-      WHO form completed. Side confirmed. Informed verbal consent with
-      opportunity to ask questions. Risk of infection/septic joint, haematoma,
-      and inadequate response.
+      WHO form completed. Side confirmed. Procedure explained. Risk of
+      infection/septic joint and inadequate response. Informed verbal consent
+      with opportunity to ask questions.
   - section: 'preparation'
     content: 'Aseptic technique.'
   - section: 'procedure'
     content: >-
       Needle inserted down to the [RIGHT|LEFT] talocalcaneal (subtalar) joint.
-      Position confirmed with iodinated contrast (Omnipaque 300). 40 milligram
-      of Kenalog (triamcinolone acetonide) and 2.5 millilitre of 0.25%
+      Position confirmed with iodinated contrast (Omnipaque 300). 40 milligrams
+      of Kenalog (triamcinolone acetonide) and 2.5 millilitres of 0.25%
       levobupivacaine injected into the joint. No immediate complications.
 ...
