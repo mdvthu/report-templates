@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'FINJTJ'
+vr_shortcut_suffix: 'intervention fluoro thumb'
+report:
+  - section: 'consent'
+    content: >-
+      WHO form completed. Side confirmed. Procedure explained. Risk of
+      infection/septic joint and inadequate response. Informed verbal consent
+      with opportunity to ask questions.
+  - section: 'preparation'
+    content: 'Aseptic technique.'
+  - section: 'procedure'
+    content: >-
+      Needle inserted down to the [RIGHT|LEFT] [thumb
+      carpometacarpal|scaphotrapeziotrapezoidal] joint. Position confirmed with
+      iodinated contrast (Omnipaque 300). 40 milligrams of Depo-Medrone
+      (methylprednisolone acetate) and 1 millilitres of 0.25% levobupivacaine
+      injected into the joint. No immediate complications.
+...
