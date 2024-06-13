@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'UFOOBJ'
+  - 'UFOOLJ'
+  - 'UFOORJ'
+vr_shortcut_suffix: 'intervention ultrasound plantar fascia'
+report:
+  - section: 'consent'
+    content: >-
+      WHO form completed. Side confirmed. Procedure explained. Risk of
+      infection and inadequate response. Informed verbal consent with
+      opportunity to ask questions.
+  - section: 'preparation'
+    content: >-
+      Aseptic technique. 3 millilitres 1% lidocaine to the skin and
+      subcutaneous soft tissues.
+  - section: 'procedure'
+    content: >-
+      Needle inserted down to the [RIGHT|LEFT] plantar fascia origin. 40
+      milligrams of Depo-Medrone (methylprednisolone acetate) and 2 millilitres
+      of 0.25% levobupivacaine injected under direct ultrasound guidance. No
+      immediate complications.
+...
