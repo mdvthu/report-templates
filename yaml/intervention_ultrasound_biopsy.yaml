@@ -1,0 +1,29 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'UBIOPB'
+vr_shortcut_suffix: 'intervention ultrasound biopsy'
+report:
+  - section: 'consent'
+    content: >-
+      Site confirmed. Procedure and risks (including discomfort, infection,
+      haematoma, inadequate sample, and damage to structures including tendons,
+      nerves, vessels) explained. Opportunity to ask questions. Informed
+      written consent. WHO time out completed.
+  - section: 'preparation'
+    content: >-
+      Sterile technique. 5 millilitres 1% lidocaine to skin and subcutaneous
+      soft tissues.
+  - section: 'procedure'
+    content: >-
+      [14] guage Achieve biopsy needle. [3] satisfactory macroscopic quality
+      cores obtained from the [RIGHT|LEFT] [SITE] lesion under direct
+      ultrasound guidance. Samples sent for pathology analysis. No immediate
+      complications.
+  - section: 'follow up'
+    content: >-
+      It is the responsibility of the referrer to review the histology result.
+...
