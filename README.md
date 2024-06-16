@@ -57,6 +57,12 @@ customise output of the generated reports.
     * `template_<modality>_<examination>_<exam_type>.txt`
     * for example, `template_mri_pelvis_contrast.txt`
 
+### Templates for interventional procedures
+
+* Imaging guided procedures have sufficiently different structure that they
+  require a different template format. Setting `interventional: true` in the
+  relevant YAML file marks the template as a procedure
+
 ## References
 
 1. [RSNA RadReport reporting
