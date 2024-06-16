@@ -88,6 +88,7 @@ class YAMLTemplate:
         # ensure the output directory exists
         text_template_loc = os.path.join(OUTPUT_DATA_DIR, "text/")
         os.makedirs(text_template_loc, exist_ok=True)
+        # filenames, with file extension and no spaces
         output_fn = "{}.txt".format(
             self.vr_shortcut_name.replace(" ", "_"),
         )
@@ -95,7 +96,7 @@ class YAMLTemplate:
             fout.write(self.text_template)
 
 
-all_templates = {YAMLTemplate(fn) for fn in os.listdir(INPUT_DATA_DIR)}
+all_templates = [YAMLTemplate(fn) for fn in os.listdir(INPUT_DATA_DIR)]
 
 for template in all_templates:
     template.save()
