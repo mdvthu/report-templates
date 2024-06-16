@@ -23,6 +23,7 @@ config_file_template = "config.yaml.default"
 cwd = os.path.abspath(os.path.dirname(__file__))
 INPUT_DATA_DIR = os.path.join(cwd, "yaml")
 OUTPUT_DATA_DIR = os.path.join(cwd, "output")
+TEMPLATE_DIR = os.path.join(cwd, "templates")
 
 try:
     # load user configuration
@@ -71,7 +72,7 @@ class YAMLTemplate:
     def render_text(self):
         """Render plain text Jinja template"""
         # set up text templating
-        env = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
+        env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATE_DIR))
         # plain text report
         text_template = env.get_template("report.txt")
         self.text_template = text_template.render(
@@ -100,7 +101,7 @@ for template in all_templates:
     template.save()
 
 # create a single XML file with all templates, for Dragon 12 import
-env = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
+env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATE_DIR))
 dragon_v12_template = env.get_template("dragon_mycmds.xml")
 rendered_dragon_template = dragon_v12_template.render(
     config=config, template_data=all_templates
