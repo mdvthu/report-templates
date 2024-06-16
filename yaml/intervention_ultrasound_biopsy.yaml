@@ -5,6 +5,7 @@
 ---
 exam_code:
   - 'UBIOPB'
+intervention: true
 vr_shortcut_suffix: 'intervention ultrasound biopsy'
 report:
   - section: 'consent'

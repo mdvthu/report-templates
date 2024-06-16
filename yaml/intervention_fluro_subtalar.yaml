@@ -5,6 +5,7 @@
 ---
 exam_code:
   - 'FINJTJ'
+intervention: true
 vr_shortcut_suffix: 'intervention fluoro subtalar'
 report:
   - section: 'consent'

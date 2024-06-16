@@ -5,6 +5,7 @@
 ---
 exam_code:
   - 'FINJTJ'
+intervention: true
 vr_shortcut_suffix: 'intervention fluoro hip'
 report:
   - section: 'consent'

@@ -5,6 +5,7 @@
 ---
 exam_code:
   - 'CSINJJ'  # CT Guided injection
+intervention: true
 vr_shortcut_suffix: 'intervention ct sacroiliac'
 report:
   - section: 'consent'
