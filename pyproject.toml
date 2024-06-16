@@ -5,3 +5,7 @@
 [tool.black]
 # PEP8 compliance (to avoid conflicting with other linters)
 line-length = 79
+
+[tool.ruff]
+# PEP8 compliance (to avoid conflicting with other linters)
+line-length = 79
