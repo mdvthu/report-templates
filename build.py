@@ -59,10 +59,9 @@ class YAMLTemplate:
         logging.debug("Loading template %s", filename)
         with open(self._yaml_path, "tr") as f:
             self.yaml_content = yaml.safe_load(f)
+        self.vr_shortcut_suffix = self.yaml_content["vr_shortcut_suffix"]
         self.vr_shortcut_name = (
-            config["vr_shortcut_prefix"]
-            + " "
-            + self.yaml_content["vr_shortcut_suffix"]
+            config["vr_shortcut_prefix"] + " " + self.vr_shortcut_suffix
         )
         self.render_text()
 
@@ -100,12 +99,14 @@ all_templates = {YAMLTemplate(fn) for fn in os.listdir(INPUT_DATA_DIR)}
 for template in all_templates:
     template.save()
 
-# # create a single XML file with all templates, for Dragon 12 import
-# dragon_v12_template = env.get_template("dragon_mycmds.xml")
-# rendered_dragon_template = dragon_v12_template.render(
-#    config=config, template_data=all_templates)
-# dragon_template_dir = os.path.join(output_data_dir, "dragon/")
-# os.makedirs(dragon_template_dir, exist_ok=True)
-# # Dragon VR templates XML
-# with open(os.path.join(dragon_template_dir, "dragon_v12.xml"), "wt") as fout:
-#    fout.write(rendered_dragon_template)
+# create a single XML file with all templates, for Dragon 12 import
+env = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
+dragon_v12_template = env.get_template("dragon_mycmds.xml")
+rendered_dragon_template = dragon_v12_template.render(
+    config=config, template_data=all_templates
+)
+dragon_template_dir = os.path.join(OUTPUT_DATA_DIR, "dragon/")
+os.makedirs(dragon_template_dir, exist_ok=True)
+# Dragon VR templates XML
+with open(os.path.join(dragon_template_dir, "dragon_v12.xml"), "wt") as fout:
+    fout.write(rendered_dragon_template)

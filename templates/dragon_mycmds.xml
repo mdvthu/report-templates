@@ -11,35 +11,16 @@ SPDX-License-Identifier: Apache-2.0
 <MyCommands version="2.0" language="0x809">
 
 	<Commands type="global">
-{% for key, value in template_data.items() %}
-		<Command name="{{ config.vr_shortcut_prefix }} {{ value.vr_shortcut_suffix }}" group="" enabled="true" states="">
-			<description>{{ value.vr_shortcut_suffix }}</description>
+{% for template in template_data %}
+		<Command name="{{ template.vr_shortcut_name }}" group="" enabled="true" states="">
+			<description>{{ template.vr_shortcut_suffix }}</description>
 			<contents type="TEXT-GRAPHICS">
 				<RTF>
 					<![CDATA[]]>
 				</RTF>
 				<TEXT>
-					<![CDATA[
-{% if value.technique %}Technique: {{ value.technique }}.
-{% endif %}
-Comparison: {{ config.vr_open_placeholder + config.comparison_text + config.vr_close_placeholder }}.
-
-Findings:
-{% if value.report is string %}
-{{ value.report }}
-{% elif value.report is iterable %}{% for section in value.report %}
-{{ section.section|upper }}:
-{{ section.content }}
-{% endfor %}{% endif %}
-
-Impression: {{
-config.vr_open_placeholder +
-value.summary|default('') +
-config.vr_close_placeholder
-}}.
-
-
-{{ config.signature }}
+<![CDATA[
+						{{ template.text_template }}
 ]]>
 				</TEXT>
 			</contents>
