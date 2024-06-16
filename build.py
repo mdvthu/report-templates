@@ -59,6 +59,11 @@ class YAMLTemplate:
         logging.debug("Loading template %s", filename)
         with open(self._yaml_path, "tr") as f:
             self.yaml_content = yaml.safe_load(f)
+        self.vr_shortcut_name = (
+            config["vr_shortcut_prefix"]
+            + " "
+            + self.yaml_content["vr_shortcut_suffix"]
+        )
         self.render_text()
 
     def __repr__(self):
@@ -83,9 +88,8 @@ class YAMLTemplate:
         # ensure the output directory exists
         text_template_loc = os.path.join(OUTPUT_DATA_DIR, "text/")
         os.makedirs(text_template_loc, exist_ok=True)
-        output_fn = "{}_{}.txt".format(
-            config["vr_shortcut_prefix"],
-            self.yaml_content["vr_shortcut_suffix"].replace(" ", "_"),
+        output_fn = "{}.txt".format(
+            self.vr_shortcut_name.replace(" ", "_"),
         )
         with open(os.path.join(text_template_loc, output_fn), "wt") as fout:
             fout.write(self.text_template)
