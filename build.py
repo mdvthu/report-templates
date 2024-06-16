@@ -19,9 +19,10 @@ import yaml
 config_file = "config.yaml"
 config_file_template = "config.yaml.default"
 
+# absolute directory paths
 cwd = os.path.abspath(os.path.dirname(__file__))
 INPUT_DATA_DIR = os.path.join(cwd, "yaml")
-OUTPUT_DATA_DIR = os.path.join(cwd, "output/")
+OUTPUT_DATA_DIR = os.path.join(cwd, "output")
 
 try:
     # load user configuration
@@ -82,8 +83,9 @@ class YAMLTemplate:
         # ensure the output directory exists
         text_template_loc = os.path.join(OUTPUT_DATA_DIR, "text/")
         os.makedirs(text_template_loc, exist_ok=True)
-        output_fn = "{}.txt".format(
-            self.yaml_content["vr_shortcut_suffix"].replace(" ", "_")
+        output_fn = "{}_{}.txt".format(
+            config["vr_shortcut_prefix"],
+            self.yaml_content["vr_shortcut_suffix"].replace(" ", "_"),
         )
         with open(os.path.join(text_template_loc, output_fn), "wt") as fout:
             fout.write(self.text_template)
