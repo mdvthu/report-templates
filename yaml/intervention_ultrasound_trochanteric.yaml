@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'UHIPBJ'
+  - 'UHIPLJ'
+  - 'UHIPRJ'
+intervention: true
+vr_shortcut_suffix: 'intervention ultrasound trochanteric'
+report:
+  - section: 'consent'
+    content: >-
+      WHO form completed. Side confirmed. Procedure explained. Risk of
+      infection, soft tissue thinning, and inadequate response. Informed verbal
+      consent with opportunity to ask questions.
+  - section: 'preparation'
+    content: >-
+      Aseptic technique.
+  - section: 'procedure'
+    content: >-
+      Needle inserted down to the [RIGHT|LEFT] trochanteric bursa. 40
+      milligrams of Kenalog (triamcinolone acetonide) and 3 millilitres of
+      0.25% levobupivacaine injected under direct ultrasound guidance. No
+      immediate complications.
+...
