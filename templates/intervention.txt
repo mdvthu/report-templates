@@ -1,0 +1,15 @@
+{#
+SPDX-FileCopyrightText: 2024 Mark Thurston
+
+SPDX-License-Identifier: Apache-2.0
+
+Plain text procedure note template
+https://jinja.palletsprojects.com/en/3.0.x/templates/
+#}
+{% for section in template_data.report %}
+{{ section.section|upper }}:
+{{ section.content }}
+{% endfor %}
+
+
+{{ config.signature }}

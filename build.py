@@ -74,7 +74,10 @@ class YAMLTemplate:
         # set up text templating
         env = jinja2.Environment(loader=jinja2.FileSystemLoader(TEMPLATE_DIR))
         # plain text report
-        text_template = env.get_template("report.txt")
+        if self.yaml_content.get("intervention"):
+            text_template = env.get_template("intervention.txt")
+        else:
+            text_template = env.get_template("report.txt")
         self.text_template = text_template.render(
             config=config, template_data=self.yaml_content
         )
