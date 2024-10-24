@@ -10,7 +10,9 @@ exam_code:
   - 'MSHRR'
   - 'MSHRL'
 vr_shortcut_suffix: 'mri shoulder'
-technique: 'Sagittal T2. Coronal proton density and fat suppressed'
+technique: >-
+  Axial fat suppressed proton density. Coronal proton density and fat
+  suppressed. Sagittal T2
 report:
   - section: 'rotator cuff'
     content: >-
@@ -21,9 +23,8 @@ report:
       The muscles return normal signal with no fatty or oedematous changes.
   - section: 'biceps'
     content: >-
-      The long head of biceps tendon and biceps anchor are normal. The tendon
-      is normally located in the bicipital groove. There is no evidence of
-      synovitis. The short head of biceps is normal.
+      The biceps tendon is intact and normally located in the bicipital groove.
+      No evidence of synovitis.
   - section: 'rotator interval'
     content: >-
       No thickening of the soft tissues. Normal coracoclavicular or
