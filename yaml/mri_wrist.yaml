@@ -1,0 +1,28 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'MWRIB'
+  - 'MWRIL'
+  - 'MWRIR'
+vr_shortcut_suffix: 'mri wrist'
+technique: >-
+  Axial T1 and fat suppressed.  Coronal proton density and fat suppressed
+  proton density. Sagittal STIR
+report:
+  - section: 'bones'
+    content: >-
+      No fracture. No bone marrow oedema. No focal bone lesion. Normal carpal
+      bone alignment.
+  - section: 'soft tissues'
+    content: >-
+      No fluid collection. Normal triangular fibrocartilage complex.
+  - section: 'joints'
+    content: >-
+      No significant joint effusion. No synovial thickening.
+  - section: 'tendons'
+    content: >-
+      Normal appearances of the flexor and extensor tendons.
+...

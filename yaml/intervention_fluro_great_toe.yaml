@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2024 Mark Thurston
+#
+# SPDX-License-Identifier: Apache-2.0
+%YAML 1.2
+---
+exam_code:
+  - 'FINJTJ'
+intervention: true
+vr_shortcut_suffix: 'intervention fluoro great toe'
+report:
+  - section: 'consent'
+    content: >-
+      WHO form completed. Side confirmed. Procedure explained. Risk of
+      infection/septic joint, soft tissue effects, and inadequate response.
+      Informed verbal consent with opportunity to ask questions.
+  - section: 'preparation'
+    content: >-
+      Aseptic technique. 3 millilitres 1% lidocaine to the skin and
+      subcutaneous soft tissues.
+  - section: 'procedure'
+    content: >-
+      Needle inserted down to the [RIGHT|LEFT] great toe metatarsophalangeal
+      joint. Position confirmed with iodinated contrast (Omnipaque 300). 40
+      milligrams of Depo-Medrone (methylprednisolone acetate) and 1 millilitre
+      of 0.25% levobupivacaine injected into the joint. No immediate
+      complications.
+...
