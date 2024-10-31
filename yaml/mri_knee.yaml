@@ -15,12 +15,12 @@ report:
   - section: 'fluid'
     content: 'No significant joint effusion. No popliteal cyst.'
   - section: 'menisci'
-    content: 'The medial and lateral menisci are intact'
+    content: 'The medial and lateral menisci are intact.'
   - section: 'ligaments'
     content: >-
       The anterior and posterior cruciate ligaments are intact. The medial and
-      lateral collateral ligaments are intact with no periligametous oedema.
-      The posterolateral corner structures are intact.
+      lateral collateral ligaments are intact. The posterolateral corner
+      structures are intact.
   - section: 'extensor mechanism'
     content: >-
       The distal quadriceps and patellar tendons are intact. The patella is
